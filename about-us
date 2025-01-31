@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewCritic - Your Ultimate Coffee Review Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f5f0;
+            color: #3e2723;
+        }
+        header {
+            background-color: #6d4c41;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .btn {
+            background-color: #d84315;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background-color: #bf360c;
+        }
+        .footer {
+            background-color: #3e2723;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>BrewCritic - Your Ultimate Coffee Review Hub</header>
+
+    <section class="section">
+        <h2>Discover the Best Coffee from Around the World</h2>
+        <img src="coffee-world.jpg" alt="A selection of global coffee">
+        <p>Explore detailed reviews, expert recommendations, and insights into the finest coffee beans, blends, and brewing methods. Whether you're a casual drinker or a coffee connoisseur, our reviews will help you find your perfect cup.</p>
+    </section>
+
+    <section class="section" id="latest-reviews">
+        <h2>Latest Coffee Reviews</h2>
+        <img src="coffee-review.jpg" alt="A fresh coffee review in progress">
+        <p>We taste, test, and analyze the best coffees available to give you honest and detailed reviews. From single-origin beans to specialty blends, we cover it all.</p>
+    </section>
+
+    <section class="section" id="brewing-guide">
+        <h2>How to Brew the Perfect Cup</h2>
+        <img src="brewing-guide.jpg" alt="Step-by-step coffee brewing guide">
+        <p>Want to elevate your coffee experience? Learn about the best brewing techniques, including pour-over, French press, espresso, and cold brew. Get tips on grind size, water temperature, and more.</p>
+    </section>
+
+    <section class="section" id="top-picks">
+        <h2>Our Top Picks</h2>
+        <img src="top-coffees.jpg" alt="Top-rated coffee beans">
+        <p>Not sure which coffee to try next? Check out our expertly curated list of the best coffee brands and beans available on the market today.</p>
+    </section>
+
+    <section class="section" id="community-reviews">
+        <h2>Community Reviews</h2>
+        <img src="coffee-community.jpg" alt="Coffee lovers sharing reviews">
+        <p>Join the discussion! Share your own coffee experiences, rate your favorite blends, and connect with fellow coffee enthusiasts.</p>
+    </section>
+
+    <footer class="footer">
+        <p>Follow us for the latest coffee insights | Contact: hello@brewcritic.com</p>
+    </footer>
+</body>
+</html>
